@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left" style="font-size: 2rem;">Ritik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <div class="firstsection">
+                <div class="leftsection">
+                    <h1>Hi, I'm <span>Ritik</span></h1>
+                </div>
+                <div class="rightsection">
+                    <img src="main.jpg" alt="Ritik's Picture">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <p>
+                I am Ritik Raj, a second-year BTech Computer Science student passionate about web development. With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating responsive and user-friendly websites. I am eager to expand my skills into backend development and explore technologies like Node.js to build dynamic, full-stack applications.
+            </p>
+        </section>
+        <hr>
+        <section id="technologies" class="section">
+            <h1>Technologies I Use</h1>
+            <div class="technologies">
+                <div class="tech-item">
+                    <img src="pngegg.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="tech-item">
+                    <img src="css-3.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="tech-item">
+                    <img src="js copy.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <img src="programing.png" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="projects" class="section">
+            <h1>My Projects</h1>
+            <div class="projects">
+                <div class="project-item">
+                    <a href="https://ritik5504.github.io/game/" target="1">
+                        <img src="game.png" alt="Rock Paper Scissors">
+                    </a>
+                    <span>Rock Paper Scissors</span>
+                </div>
+                <div class="project-item">
+                    <a href="https://ritik5504.github.io/my/" target="1">
+                        <img src="web.png" alt="Car Booking Website">
+                    </a>
+                    <span>Car Booking Website</span>
+                </div>
+                <div class="project-item">
+                    <a href="https://ritik5504.github.io/amazon.com/" target="1">
+                        <img src="amazon.png" alt="Amazon Clone">
+                    </a>
+                    <span>Amazon Clone</span>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="resume" class="section">
+            <h1>My Resume</h1>
+            <p>
+                Explore my professional portfolio to learn more about my education, skills, projects, and work experiences.
+            </p>
+            <a href="ritik.pdf" class="resume-button" download="Ritik_Raj_Resume.pdf">Download My Resume</a>
+        </section>
+        <hr>
+        <section id="contact" class="section">
+            <h1>Contact Information</h1>
+            <p class="contact-info">
+                📞 Contact Number: <strong>+91-9905870990</strong><br>
+                ✉️ Email: <strong>rajritik34@gmail.com</strong>
+            </p>
+            <a href="https://www.linkedin.com/in/ritik-singh-2943a2215/" class="linkedin-button" target="_blank">LinkedIn</a>
+        </section>
+    </main>
+    <footer>
+        &copy; <span>2025</span> Ritik's Portfolio. All rights reserved.
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.leftsection h1 span', {
+            strings: ['Ritik', 'a Web Developer', 'a Freelancer', 'a Designer', 'a Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
